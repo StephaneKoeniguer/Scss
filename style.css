@@ -1,0 +1,97 @@
+body {
+  background: #F5E2E9;
+}
+
+.littleRing {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #FF6019;
+  border-radius: 50%;
+  margin: 5%;
+}
+
+.firstRing {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.BigRing {
+  width: 200px;
+  height: 200px;
+  border: 20px solid #FDCA2F;
+  border-radius: 50%;
+  margin: 1%;
+}
+
+.SecondRing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.LoopRing1 {
+  width: 18px;
+  height: 18px;
+  border: 1.8px solid #373839;
+  border-radius: 50%;
+  margin-left: -6px;
+  margin-top: -6px;
+}
+
+.LoopRing2 {
+  width: 36px;
+  height: 36px;
+  border: 3.6px solid #373839;
+  border-radius: 50%;
+  margin-left: -12px;
+  margin-top: -12px;
+}
+
+.LoopRing3 {
+  width: 54px;
+  height: 54px;
+  border: 5.4px solid #373839;
+  border-radius: 50%;
+  margin-left: -18px;
+  margin-top: -18px;
+}
+
+.LoopRing4 {
+  width: 72px;
+  height: 72px;
+  border: 7.2px solid #373839;
+  border-radius: 50%;
+  margin-left: -24px;
+  margin-top: -24px;
+}
+
+.LoopRing5 {
+  width: 90px;
+  height: 90px;
+  border: 9px solid #373839;
+  border-radius: 50%;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.LoopRing6 {
+  width: 108px;
+  height: 108px;
+  border: 10.8px solid #373839;
+  border-radius: 50%;
+  margin-left: -36px;
+  margin-top: -36px;
+}
+
+.ThirdRing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5em;
+}/*# sourceMappingURL=style.css.map */

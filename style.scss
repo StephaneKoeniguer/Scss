@@ -1,0 +1,57 @@
+@mixin ring($size, $color) {
+    width: $size;
+    height: $size;
+    border: $size /10 solid $color;
+    border-radius: 50%;
+  }
+
+$backgroundColor: #F5E2E9;
+$first-Color: #FF6019;
+$second-Color: #FDCA2F;
+$third-Color:#373839;
+
+body{
+    background: $backgroundColor;
+}
+
+.littleRing{
+    @include ring(50px, $first-Color);
+    margin: 5%;
+}
+
+.firstRing{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%
+}
+
+.BigRing{
+    @include ring(200px, $second-Color);
+    margin: 1%;
+}
+
+.SecondRing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%
+}
+
+@for $i from 1 through 6 {
+    .LoopRing#{$i} {
+         @include ring(60px * (0.3 * $i), $third-Color);
+          margin-left: -20px * (0.3 * $i);
+          margin-top: -20px * (0.3 * $i);
+    }
+}
+
+.ThirdRing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 5em;
+}
